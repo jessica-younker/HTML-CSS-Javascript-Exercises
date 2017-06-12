@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mushroom Mania</title>
+</head>
+<body ng-app="MushApp">
+	
+
+		<h2>Mushroom Mania</h2>
+		
+		<form>
+			<input type="text" class="form-control" placeholder="Type mushroom here" ng-model="searchText" />
+			<br>
+			<input type="radio" value="false" ng-model="item.edible" /> Poisonous
+			<br>
+			<input type="radio" value="true" ng-model="item.edible" /> Non-Poisonous
+
+		</form>
+		<br>
+		<div ng-view></div>
+
+
+	
+
+
+<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="app/MushCtrl.js"></script>
+<script type="text/javascript" src="app/values/fb-cred.js"></script>
+
+</body>
+</html>
+
+
+<!-- TODO: Repeat over our todo list items and setup filtering by search term. Easy peasy
+    <div ng-repeat="item in items | filter:{task:searchText}">allows you to specify search parameter (here limits to task) -->
+    <!-- <div ng-repeat="item in items | filter: searchText"> -->

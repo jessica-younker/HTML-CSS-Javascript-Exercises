@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie History</title>
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans|Oswald|Source+Sans+Pro" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">	
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search OMDB and your tracked movies. . ." id="search-input">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button">Go!</button>
+					</span>
+				</div>
+			</div>
+			<button type="button" id="login" class="btn btn-default navbar-btn navbar-right">Sign in</button>
+			<button type="button" id="logout" class="btn btn-default navbar-btn navbar-right hidden">Logout</button>
+		</div>	
+	</nav>	
+	<header class="hidden" id="splash">
+		<h1>Movie History</h1>
+		<img src="images/cameraImage.jpg" alt="Image of a Movie Camera" width="100%">
+	</header>
+	<header id="registeredHeader">
+		<h2 id="music-history">Movie History > Untracked</h2>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<ul id="movie-nav-bar" class="nav navbar-nav">
+					<li class="active" ><a id="untracked" href="#">Show Untracked</a></li>
+					<li><a id="to-watch" href="#">Show Unwatched</a></li>
+					<li><a id="watched" href="#">Show Watched</a></li>
+					<li><a id="favorites" href="#">Show Favorites</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid" id="wrapper">
+		<div id="container">
+			<div class="row">
+				<div class="thumbnail col-sm-6 col-md-4 js-card">
+					<img src="./images/moviePoster.jpg" alt="...">
+						<div class="caption">
+							<h3>The Million Dollar Duck</h3>
+							<p>Professor Dooley takes home a duck from his research laboratory as a toy for his son, but soon finds out that it lays golden eggs.</p>
+							<p>Dean Jones, Sandy Duncan, and Joe Flynn</p>
+							<p>1971</p>
+							<button type="button" class="btn btn-default add-to-watchlist">Add to Watchlist</button>
+							<div class="rating">
+								<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+							</div>
+						</div>
+				</div>
+				<div class="thumbnail col-sm-6 col-md-4 js-card">
+					<img src="./images/moviePoster.jpg" alt="...">
+					<div class="caption">
+						<h3>The Million Dollar Duck</h3>
+						<p>Professor Dooley takes home a duck from his research laboratory as a toy for his son, but soon finds out that it lays golden eggs.</p>
+						<p>Dean Jones, Sandy Duncan, and Joe Flynn</p>
+						<p>1971</p>
+						<button type="button" class="btn btn-default add-to-watchlist">Add to Watchlist</button>
+						<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+					</div>
+				</div>
+				<div class="thumbnail col-sm-6 col-md-4 js-card">
+				<img src="./images/moviePoster.jpg" alt="...">
+					<div class="caption">
+						<h3>The Million Dollar Duck</h3>
+						<p>Professor Dooley takes home a duck from his research laboratory as a toy for his son, but soon finds out that it lays golden eggs.</p>
+						<p>Dean Jones, Sandy Duncan, and Joe Flynn</p>
+						<p>1971</p>
+						<button type="button" class="btn btn-default add-to-watchlist">Add to Watchlist</button>
+						<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+					</div>
+				</div> -->
+ 			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dist/app.js"></script>
+</body>
+</html>

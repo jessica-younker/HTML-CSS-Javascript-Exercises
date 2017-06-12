@@ -1,0 +1,13 @@
+
+<div>
+
+    <div ng-repeat="item in mushrooms | filter:{description: searchText, edible: item.edible}">	
+  
+          <div>Name: {{item.name}}</div>
+          <div>Description: {{item.description}}</div> 
+          <div>Edible?: {{item.edible}}</div>
+   	</div>
+</div>
+
+<!-- filter and search text 18:30 in vid 
+controller and view 27: -->

@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hold on Handlebars, wee.</title>
+</head>
+
+<body>
+	<script type="text/x-handlebars-template" id="handlebars-starter">
+		<!-- //anything between these tags becomes a template by this id -->
+		<div>My name is {{name}}.</br>
+		I am a {{occupation}}.
+		</div>
+	</script>
+
+	<script type="text/x-handlebars-template" id="hbs-language">
+		<div>
+			We are learning {{language}}, and it is {{adjective}}.
+		</div>
+	</script>
+
+	<script type="text/x-handlebars-template" id="hbs-devs">
+		<div>
+			This is a demo for {{website.name}}.
+			{{#each names}}
+			<!-- ../takes us out one level -->
+			<!-- @index lists index val -->
+			{{@index}}	I am a {{../occupation}}. My name is {{firstName}}. <br>
+			{{/each}}
+		</div>
+		<div>
+			{{#if cities}}
+				<h3>The cities are available</h3>
+				{{#each cities}}
+					{{this}}
+				{{/each}}
+			{{else}}
+				<h3>The cities are not available</h3>
+			{{/if}}
+		</div>
+	</script>
+	<script type="text/x-handlebars-template" id="hbs-voter">
+		<div>
+			{{#each person}}
+				{{increment @index}} {{name}} {{voterStatus year}}<br>
+			{{/each}}	
+		</div>
+			
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/handlebars/dist/handlebars.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

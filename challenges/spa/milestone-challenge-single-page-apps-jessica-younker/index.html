@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Car Lot</title>
+
+</head>
+<body>
+	<header>
+		<form class="navbar-form navbar-left" role="search">
+		  <div class="form-group">
+		    <textarea type="textarea" class="form-control" placeholder="Click card to edit description here"></textarea>
+		    <button type="button" class="submit">Submit Edit</button> 
+		  </div>
+		</form>
+	</header>
+
+	<script type="text/x-handlebars-template" id="hbs">
+		<div class="col-md-4">
+			<article class="card">
+				<div class="text">
+						<img class="image" src="{{image}}"> </br>
+						Make: {{make}} </br>
+						Model: {{model}} </br>
+						Year: {{year}} </br>
+						Price: {{price}} </br>
+						Description: <span class="editMe">{{description}}</span> </br>
+				</div>	
+			</article>
+		</div>	
+	</script>
+
+	<div class="container-fluid" id="card-area"></div>
+
+
+
+	<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/handlebars/dist/handlebars.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="javascripts/carlot.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+	<script type="text/javascript" src="javascripts/eventhandler.js"></script>
+</body>
+</html>

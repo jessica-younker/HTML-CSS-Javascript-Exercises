@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Text Translator</title>
+</head>
+<body>
+
+	<h3>Enter Text To Translate:</h3>
+
+	<textarea id="inputText"></textarea>
+
+	<h3>Select a Language:</h3>
+
+	<select id="languageChooser">
+		<option id="choose" value="chooseToTranslate">Choose A Language</option>
+		<option id="danish" value="danishTranslate">Danish</option>
+		<option id="esperanto" value="esperantoTranslate">Esperanto</option>
+	  	<option id="german" value="germanTranslate">German</option>
+	  	<option id="polish" value="polishTranslate">Polish</option>
+	</select>
+
+	<input type="button" label="translate" value="Translate" id="translate_button">
+
+<br><br>
+
+	<div id="translated_text"></div>
+
+	<script type="text/javascript" src="javascript/danish.js"></script>
+	<script type="text/javascript" src="javascript/polish.js"></script>
+	<script type="text/javascript" src="javascript/german.js"></script>
+	<script type="text/javascript" src="javascript/esperanto.js"></script>
+	<script type="text/javascript" src="javascript/DOMHandler.js"></script>
+
+</body>
+</html>
+
+<!-- merry christmas and happy new year -->

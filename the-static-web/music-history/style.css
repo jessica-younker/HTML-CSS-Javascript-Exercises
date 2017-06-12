@@ -1,0 +1,79 @@
+nav {
+	border: 2px solid black;
+	width: 90%;
+	height: 50px;
+	background-color: #ffb4b0;
+	margin-left: 40px;
+	padding-left: 15px;
+	padding-top: 15px;
+
+
+}
+
+.first-box {
+	background-color: #4DD7FA;
+	min-width: 20%;
+	border: 2px solid black;
+	margin-left: 44px;
+	float: left;
+	clear: right;
+	display: inline-block;
+	min-height: 100px;
+	overflow: hidden;
+
+
+}
+#finalList {
+	background-color: #FEFAC0;
+	width: 70%;
+	border: 2px solid black;
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 30px;	
+	position: relative;
+	min-height: 100px;
+	overflow: hidden;
+
+}
+
+#more {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.third-box {
+
+
+}
+
+.artist {
+	line-height: 0px;
+}
+.album {
+	line-height: 3px;
+}
+
+.slider {
+	line-height: 3px;
+}
+
+ul > li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px 15px 0 15px;
+  background-color: goldenrod;
+  padding: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 2em;
+}

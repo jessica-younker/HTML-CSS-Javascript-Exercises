@@ -1,0 +1,49 @@
+article {
+	border: 1px solid lightblue ;
+	width: 30%;
+	margin: 40px;
+	background-color: white;
+}
+
+h2 {
+	border: 1px dotted lightgrey ;
+	border-top: none;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.description {
+	margin: 10px;
+	text-align: justify;
+}
+.row {
+	display: flex;
+	background-color: orange;
+	border: 1px black;
+	margin-left: 10px;
+}
+
+img {
+	max-width: 150px;
+	max-height: auto;
+}
+
+
+.stripe {
+	background-color: lightgrey;
+}
+
+.specs {
+	font-weight: bold;
+	line-height: 5px;
+	padding-left: 20px;
+}
+
+.blankspacemaker {
+	background-color: transparent;
+	border: none;
+}
+
+footer {
+	font-size: x-small;
+}

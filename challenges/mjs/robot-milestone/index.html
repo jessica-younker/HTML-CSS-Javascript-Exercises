@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="challenge.css">
+	<title>Farm Foes</title>
+</head>
+<body>
+	<div class="page-header">
+  		<h1>Farm Foes <h1>
+  	</div>
+
+  <!-- 	<div class="row"> -->
+  	<div class="col-md-4">
+		<form action="/output/" name="InputCacheCheck" method="post">
+		    <div class="input-prepend input-append">
+		        <div class="btn-group">
+
+		            <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+		            Choose Team
+		            <span class="caret"></span>
+		            </button>
+		            <ul class="dropdown-menu" id=thisCorner>
+		                  <li><a href="#">Crop</a></li>
+		                  <li><a href="#">Insect</a></li>
+		                  <li><a href="#">Fungus</a></li>
+		            </ul>
+		        <input class=".input-large" name="hostnameinput" id="appendedInputButton" type="text">
+		        <button class="btn" type="submit">Select Competitor</button>
+
+		        </div>
+		    </div>
+		</form>
+	</div>
+
+	<div class="col-md-4">
+		<p>
+		  <button type="button" class="btn btn-primary btn-lg">Attack!</button>
+		</p>
+	</div>
+
+	<div class="col-md-4">
+		<form action="/output/" name="InputCacheCheck" method="post">
+		    <div class="input-prepend input-append">
+		        <div class="btn-group">
+
+		            <button class="btn dropdown-toggle" name="recordinput" data-toggle="dropdown">
+		            Choose Team
+		            <span class="caret"></span>
+		            </button>
+		            <ul class="dropdown-menu" id=thatCorner>
+		                  <li><a href="#">Crop</a></li>
+		                  <li><a href="#">Insect</a></li>
+		                  <li><a href="#">Fungus</a></li>
+		            </ul>
+		        <input class=".input-large" name="hostnameinput" id="appendedInputButton" type="text">
+		        <button class="btn" type="submit">Select Competitor</button>
+		        
+		        </div>
+		    </div>
+		</form>
+	</div>
+	
+
+	<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascripts/challenge.js"></script>
+	<script type="text/javascript" src="javascripts/events.js"></script>
+</body>
+</html>

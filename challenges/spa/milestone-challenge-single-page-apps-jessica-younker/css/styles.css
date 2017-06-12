@@ -1,0 +1,50 @@
+.card {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	margin-top: 5px;
+	height: 345px;
+	
+	
+	
+}
+
+.image {
+	alignment-baseline: center;
+	width: 300px;
+	height: 190px;
+	margin: auto;
+	display: block;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-top: 5px;
+}
+
+.text {
+	word-wrap: break-word;
+	padding: 5px;
+
+
+
+}
+
+header {
+	display: inline-block;
+	padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*1. When you click on one of the car elements, change the width 
+of the border to a higher value, and change the background color to 
+any other color of your choosing.*/

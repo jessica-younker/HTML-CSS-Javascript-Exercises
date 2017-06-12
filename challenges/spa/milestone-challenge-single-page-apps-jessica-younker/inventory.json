@@ -1,0 +1,52 @@
+{
+  "cars": [
+    { 
+      "image": "images/car1.jpeg",
+      "make": "Maronda",
+      "model": "Misfit",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is a fixer-upper of a 2006 Maronda Misfit with only 8999 miles on it. Leather seats, power everything."
+    },
+    { 
+      "image": "images/car2.jpeg",
+      "make": "Porky",
+      "model": "Dingleberry",
+      "year": "2006",
+      "price": "7999",
+      "description": "This is an immaculate 2006 Porky Dingleberry with only 7999 miles on it. Cloth seats, self vacuuming."
+    },
+    {
+      "image": "images/car3.jpeg",
+      "make": "Geheimniss",
+      "model": "Haskell",
+      "year": "2006",
+      "price": "9999",
+      "description": "This is a rusty 2006 Geheimniss Haskell with only 9999 miles on it. Corduroy seats, removable antenna."
+    },
+    {
+      "image": "images/car4.jpeg",
+      "make": "Dracula",
+      "model": "Biscuit",
+      "year": "2006",
+      "price": "10999",
+      "description": "This is a mostly functioning 2006 Dracula Biscuit with only 10999 miles on it. Snake leather seats, cassette deck."
+    },
+    {
+      "image": "images/car5.jpeg",
+      "make": "Ferrel",
+      "model": "Hamstring",
+      "year": "2006",
+      "price": "11999",
+      "description": "This is an immature 2006 Ferrel Hamstring with only 11999 miles on it. Metal seats, complimentary fast food bags."
+    },
+    {
+      "image": "images/car6.jpeg",
+      "make": "Baguettey",
+      "model": "Showercurtain",
+      "year": "2006",
+      "price": "15999",
+      "description": "This is an outstanding 2006 Baguettey Showercurtain with only 15999 miles on it. Blessed church pews, baptismal font."
+    }
+  ]
+}

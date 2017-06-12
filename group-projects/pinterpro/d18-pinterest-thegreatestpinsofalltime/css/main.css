@@ -1,0 +1,141 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+  margin: 30px; }
+
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px; }
+
+.nav-links {
+  margin-bottom: 2.4em; }
+
+.search input {
+  width: 500px;
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset; }
+
+.search input {
+  text-indent: 32px; }
+
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+.login-btn {
+  margin: 5px;
+  color: white;
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+
+.login-btn:hover {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: black; }
+
+#login-pg {
+  display: block;
+  text-align: center;
+  width: 30%;
+  text-align: center;
+  display: block;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 30px auto auto 30%; }
+
+.md-primary a {
+  text-decoration: none !important; }
+
+#search-input {
+  width: 40em;
+  max-width: 95% !important; }
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: none !important;
+  cursor: auto; }
+
+.brand-logo {
+  width: 40px;
+  height: 40px; }
+
+.pin-img {
+  border-radius: 10px;
+  width: 305px;
+  height: 300px;
+  text-align: center; }
+
+#ng-view {
+  margin-right: 1%;
+  margin-left: 1%; }
+
+.pin-card {
+  text-align: center;
+  width: 20em;
+  height: 30em;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  box-shadow: 1px 1px 1px; }
+
+.pin-card:hover {
+  background-color: lightgrey;
+  box-shadow: 3px 3px 3px; }
+
+#search-icon {
+  margin-bottom: 10px; }
+
+.pin-btns {
+  margin-left: 85px !important; }
+
+.md-card {
+  max-width: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 600px; }
+
+.md-card-image {
+  max-height: 100%;
+  max-width: 100%; }
+
+.card-button {
+  position: relative; }
+
+.card-title {
+  display: inline-block;
+  max-width: 30%; }
+
+.pinDetailCard {
+  width: 100em;
+  height: 150%; }
+
+.pinItButton:not([disabled]) {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  color: orange;
+  margin-left: 10px;
+  width: 80px;
+  position: absolute;
+  background-color: transparent; }
+
+.pinItButton:not([disabled]):hover {
+  color: red; }
+
+.editButton:not([disabled]) {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  color: orange;
+  margin-left: 10px;
+  width: 80px;
+  position: absolute;
+  background-color: grey; }
+
+.editButton:not([disabled]):hover {
+  color: red; }
+
+/*# sourceMappingURL=main.css.map */

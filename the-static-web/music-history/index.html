@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+  	<meta charset="utf-8">
+ 	<title>Music History</title>
+</head>
+
+<body>
+	<section id= "home-view" class="visible">
+			<p>
+				<nav>
+					 <a href="#" id="link-home">Home</a>  |
+					 <a href="#" id="link-list">List Music</a> |
+					 <a href="#" id="link-add">Add Music</a> |
+				</nav>
+			</p>		
+	</section>
+
+	<section id="list-view" class="hidden">
+		<article class="first-box">
+
+			<h3 class="slider">Song Length:</h3>
+				<p><input type="range"></p>
+
+			<h3 id ="select-artist" class="select-artist">Artist:</h3>
+				<select>
+				 <option>Select Artist</option>
+				</select>
+				<br>
+
+			<h3 class="album">Album:</h3>
+				<select>
+				<option value="select-album">Select Album</option>
+				</select>
+
+			<form action="">
+				<input type="checkbox" name="genre" value="hipHop">Hip Hop<br>
+				<input type="checkbox" name="genre" value="rock">Rock<br>
+				<input type="checkbox" name="genre" value="classical">Classical<br>
+				<input type="checkbox" name="genre" value="jazz">Jazz<br> 
+				<input type="checkbox" name="genre" value="blues">Blues<br> 
+				<input type="checkbox" name="genre" value="metal">Metal
+			</form>
+			
+			<button type="button" onclick="alert('Hello world!')">Filter</button>
+		</article>
+		
+		<p id="finalList">
+			<button id="more" type="button">More ></button>
+		</p>
+		
+	</section>
+
+	<section id="add-view" class="hidden">
+		<div class="third-box">
+			<label for="songName">Enter Song Name:</label>	
+			<input id="songName" type="text">
+			<br>
+			
+			<label for="songArtist">Enter Song's Artist:</label>	
+			<input id="songArtist" type="text">
+			<br>
+
+			<label for="songAlbum">Enter Song's Album:</label>	
+			<input id="songAlbum" type="text">
+			<br>
+
+			<button id="addMusic" type="button">Add</button>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="javascripts/xhr.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

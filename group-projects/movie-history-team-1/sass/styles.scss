@@ -1,0 +1,83 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, li, ul, a, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav-container, .filter-group, .my-jumbotron {
+  margin: 1rem 5%;
+}
+
+.jumbotron {
+  border-radius: 2em;
+
+  .h1-jumbotron {
+    margin-bottom: 2em;
+    font-weight: lighter;
+  }
+  .link-jumbotron:hover {
+    text-decoration: none;
+  }
+  .link-jumbotron:focus{
+    text-decoration: none;
+  }
+}
+
+.log-btn {
+  font-size: 5em;
+}
+
+// slider
+.sliderContainer label {
+  margin-left: 18%;
+}
+
+.sliderContainer {
+  width: 28%;
+}
+
+#slider {
+  margin-left: 18%;
+}
+
+.rateYo {
+  margin: 10px 0;
+}
+
+// // Rating starts
+// ul.rating{
+//   background:url(../images/star.jpg) bottom;
+//   height:21px;
+//   width:115px;
+//   overflow:hidden;
+// }
+
+// ul.rating li{
+//   display:inline
+// }
+
+// .rating a {
+//   display:block;
+//   width:23px;
+//   height:21px;
+//   float:left;
+//   text-indent:-9999px;
+//   position:relative;
+// }
+
+// .rating a:hover {
+//   background:url(../images/star.jpg) center;
+//   width:115px;
+//   margin-left:-92px;
+//   position:static;
+// }
+
+// .rating a:active {
+//   background-position:top;
+// }

@@ -1,0 +1,69 @@
+{
+	"doctors": [
+		{
+	        "killigrew": {
+	            "first_name": "Kohan",
+	            "last_name": "Killigrew",
+	            "speciality": "Pediatrics"
+	        }
+	    },
+	    {
+	        "lilligrew": {
+	            "first_name": "Lohan",	
+	            "last_name": "Lilligrew",
+	            "speciality": "Geriatrics"
+	    	}
+	    },
+	    {
+	        "milligrew": {	
+	            "first_name": "Mohan",
+	            "last_name": "Milligrew",
+	            "speciality": "Oncology"
+	    	}
+	    }, 
+	    {
+	        "nilligrew": {
+	            "first_name": "Nohan",
+	            "last_name": "Nilligrew",
+	            "speciality": "Obstetrics"
+	        }
+	    }
+
+	 	],
+	
+	"patients": [
+        {
+          "svenson": {
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "killigrew"
+            }
+        },
+        {
+            "jenson": {
+            	"first_name": "Jargot",
+                "last_name": "Jvenson",
+                "ailment": "Brainpain",
+                "doctor_id": "lilligrew"
+            }
+        },
+        {
+            "benson": {
+            	"first_name": "Bargot",
+                "last_name": "Bvenson",
+                "ailment": "Headhurt",
+                "doctor_id": "milligrew"
+            }
+        },
+        {
+            "fenson": {
+            	"first_name": "Fargot",
+                "last_name": "Fvenson",
+                "ailment": "Heebiejeebies",
+                "doctor_id": "nilligrew"
+            }
+        }
+    ]
+
+}

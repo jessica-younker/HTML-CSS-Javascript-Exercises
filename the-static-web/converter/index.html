@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Temp Converter</title>
+</head>
+<body>
+
+	<h1>Temp Converter!</h1>
+
+	<div>
+		<label for="tempField">Temperature:</label>	
+		<input id="tempField" type="text">
+		<br>
+		 
+		<span>Select the temp you'd like to convert to!</span>
+		<br>
+
+		<input type="radio" id="celsiusRadio" name="conversionType" value="Celsius" checked="checked"> 
+		<label for="celsiusRadio">Celsius</label>
+		
+		<input type="radio" id="fahrenheitRadio" name="conversionType" value="Fahrenheit">
+		<label for="fahrenheitRadio">Fahrenheit</label>
+		<br>
+		
+		<button id="converter" type="button">Submit</button>
+		<button id="clear">Reset</button>
+
+		<p>See your converted temperature below!</p> 
+	</div>
+
+	<div id="output-target">
+		
+	</div>
+
+	<script type="text/javascript" src="converter.js"></script>
+</body>
+</html>

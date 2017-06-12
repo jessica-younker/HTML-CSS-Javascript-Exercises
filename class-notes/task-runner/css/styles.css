@@ -1,0 +1,44 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #999; }
+
+h1 {
+  color: red; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: secondary-color; }
+nav li {
+  display: inline-block;
+  text-decoration: none; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  color: blue; }
+
+.center {
+  margin-left: 50%;
+  margin-right: auto; }
+
+.message, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: green; }
+
+.error {
+  border-color: orange; }
+
+.warning extend .message {
+  border-color: orange; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+aside[role="complementary"] {
+  float: right;
+  width: 62.5%; }
+
+/*# sourceMappingURL=styles.css.map */

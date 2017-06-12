@@ -1,0 +1,1 @@
+create objecte that holds all functions

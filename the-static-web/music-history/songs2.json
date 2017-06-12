@@ -1,0 +1,25 @@
+
+{
+	"songs": [
+	        {
+	        "Title": "Another Brick in the Wall",
+            "Artist": "Pink Floyd",
+            "Album": "The Wall"
+	        },
+	        {
+	      	"Title": "Welcome to the Jungle",
+            "Artist": "Guns & Roses",
+            "Album": "Appetite for Destruction"
+	        },
+	        {
+	        "Title": "Ironic",
+            "Artist": "Alanis Morisette",
+            "Album": "Jagged Little Pill"
+	        },
+	        {
+	        "Title": "Thriller",
+            "Artist": "Micheal Jackson",
+            "Album": "Thriller"
+	        }
+	    ]
+}

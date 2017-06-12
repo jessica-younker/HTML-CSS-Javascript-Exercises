@@ -1,0 +1,38 @@
+<h1>{{title}}</h1>
+<div layout="column" class="inputdemoIcons">
+
+  <br>
+  <md-content class="md-no-momentum">
+
+    <!-- <md-input-container class="md-icon-float md-block">
+      <label>Your Name</label>
+      <input ng-model="newPin.name" type="text" placeholder="Your name">
+    </md-input-container> -->
+
+    <md-input-container class="md-icon-float md-block">
+      <label>Pin Title</label>
+      <input ng-model="newPin.title" type="text" placeholder="Name your new pin">
+    </md-input-container>
+
+    <md-input-container class="md-icon-float md-block">
+      <label>Content URL</label>
+      <input ng-model="newPin.url" type="text" placeholder="Add URL for your content page">
+    </md-input-container>
+
+    <md-input-container class="md-icon-float md-block">
+      <label>Photo URL</label>
+      <input ng-model="newPin.img" type="text" placeholder="URL for Pin Photo">
+    </md-input-container>
+
+    <!-- Add dropdown for which specific board to pin this pin to -->
+      <label>Choose Board:</label>
+      <select ng-model="newPin.boardId">
+        <option ng-repeat="board in boards" value="{{board.id}}">{{board.title}}</option>
+      </select>
+
+    <md-button ng-click="getPins(user)" class="md-raised md-warn">Cancel</md-button>
+    <md-button ng-click="addNewPin()" class="md-raised md-primary">{{btnText}}</md-button>
+
+  </md-content>
+
+</div>

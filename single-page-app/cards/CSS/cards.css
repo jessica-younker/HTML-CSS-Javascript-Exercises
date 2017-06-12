@@ -1,0 +1,38 @@
+textarea {
+	width: 70%;
+	height: 8em;
+	border-style: solid;
+	background: linear-gradient(beige, white); 
+	align-content: center;
+}
+
+#create {
+	width: 15%;
+	height: 4em;
+	margin-bottom: 1em;
+	align-content: center;
+	border-style: solid
+	border-radius: 25px;
+	background-color: beige;
+}
+
+#card-area {
+	display: flex;
+	margin-left: 15%
+	width: 70%;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.card {
+	border: 2px dashed #000;
+	padding: 1em;
+	width: 25%
+	margin: 1em;
+	padding: 1em;	
+}
+
+.text {
+	font-family: fantasy;
+	text-align: center;
+}

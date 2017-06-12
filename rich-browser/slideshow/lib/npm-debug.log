@@ -1,0 +1,189 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt',
+1 verbose cli   'contrib-sass',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json lib@1.0.0 No description
+5 warn package.json lib@1.0.0 No repository field.
+6 warn package.json lib@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt', null ]
+9 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt',
+10 verbose parsed url   path: 'grunt',
+10 verbose parsed url   href: 'grunt' }
+11 verbose cache add [ 'contrib-sass', null ]
+12 verbose cache add name=undefined spec="contrib-sass" args=["contrib-sass",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'contrib-sass',
+13 verbose parsed url   path: 'contrib-sass',
+13 verbose parsed url   href: 'contrib-sass' }
+14 silly lockFile 20ff3fd8-grunt grunt
+15 verbose lock grunt /Users/wgaggioli/.npm/20ff3fd8-grunt.lock
+16 silly lockFile b1285188-contrib-sass contrib-sass
+17 verbose lock contrib-sass /Users/wgaggioli/.npm/b1285188-contrib-sass.lock
+18 silly lockFile 20ff3fd8-grunt grunt
+19 silly lockFile 20ff3fd8-grunt grunt
+20 silly lockFile b1285188-contrib-sass contrib-sass
+21 silly lockFile b1285188-contrib-sass contrib-sass
+22 verbose addNamed [ 'grunt', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 55f1ff24-grunt grunt@
+25 verbose lock grunt@ /Users/wgaggioli/.npm/55f1ff24-grunt.lock
+26 verbose addNamed [ 'contrib-sass', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 105f046e-contrib-sass contrib-sass@
+29 verbose lock contrib-sass@ /Users/wgaggioli/.npm/105f046e-contrib-sass.lock
+30 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+31 silly addNameRange { name: 'contrib-sass', range: '*', hasData: false }
+32 verbose request where is /contrib-sass
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id f0d9f5a13e95727c
+35 verbose url raw /contrib-sass
+36 verbose url resolving [ 'https://registry.npmjs.org/', './contrib-sass' ]
+37 verbose url resolved https://registry.npmjs.org/contrib-sass
+38 verbose request where is https://registry.npmjs.org/contrib-sass
+39 info trying registry request attempt 1 at 15:15:59
+40 http GET https://registry.npmjs.org/contrib-sass
+41 verbose request where is /grunt
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /grunt
+44 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+45 verbose url resolved https://registry.npmjs.org/grunt
+46 verbose request where is https://registry.npmjs.org/grunt
+47 info trying registry request attempt 1 at 15:15:59
+48 verbose etag W/"5893ec73-18905"
+49 http GET https://registry.npmjs.org/grunt
+50 http 304 https://registry.npmjs.org/grunt
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Fri, 03 Feb 2017 21:13:51 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'cache-control': 'max-age=300',
+51 silly registry.get     etag: 'W/"5893ec73-18905"',
+51 silly registry.get     age: '299',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '4',
+51 silly registry.get     'x-timer': 'S1486156431.111189,VS0,VE0',
+51 silly registry.get     vary: 'Accept-Encoding' } ]
+52 verbose etag https://registry.npmjs.org/grunt from cache
+53 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+54 silly addNameRange versions [ 'grunt',
+54 silly addNameRange   [ '0.1.0',
+54 silly addNameRange     '0.1.1',
+54 silly addNameRange     '0.1.2',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.2.1',
+54 silly addNameRange     '0.2.2',
+54 silly addNameRange     '0.2.3',
+54 silly addNameRange     '0.2.4',
+54 silly addNameRange     '0.2.5',
+54 silly addNameRange     '0.2.6',
+54 silly addNameRange     '0.2.7',
+54 silly addNameRange     '0.2.8',
+54 silly addNameRange     '0.2.9',
+54 silly addNameRange     '0.2.10',
+54 silly addNameRange     '0.2.11',
+54 silly addNameRange     '0.2.12',
+54 silly addNameRange     '0.2.13',
+54 silly addNameRange     '0.2.14',
+54 silly addNameRange     '0.2.15',
+54 silly addNameRange     '0.3.0',
+54 silly addNameRange     '0.3.1',
+54 silly addNameRange     '0.3.2',
+54 silly addNameRange     '0.3.3',
+54 silly addNameRange     '0.3.4',
+54 silly addNameRange     '0.3.5',
+54 silly addNameRange     '0.3.6',
+54 silly addNameRange     '0.3.7',
+54 silly addNameRange     '0.3.8',
+54 silly addNameRange     '0.3.9',
+54 silly addNameRange     '0.3.10',
+54 silly addNameRange     '0.3.11',
+54 silly addNameRange     '0.3.12',
+54 silly addNameRange     '0.3.13',
+54 silly addNameRange     '0.3.14',
+54 silly addNameRange     '0.3.15',
+54 silly addNameRange     '0.3.16',
+54 silly addNameRange     '0.3.17',
+54 silly addNameRange     '0.4.0',
+54 silly addNameRange     '0.4.1',
+54 silly addNameRange     '0.4.2',
+54 silly addNameRange     '0.4.3',
+54 silly addNameRange     '0.4.4',
+54 silly addNameRange     '0.4.5',
+54 silly addNameRange     '1.0.0-rc1',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '0.3.13-a',
+54 silly addNameRange     '0.4.0-a',
+54 silly addNameRange     '0.4.0-rc1',
+54 silly addNameRange     '0.4.0-rc2',
+54 silly addNameRange     '0.4.0-rc3',
+54 silly addNameRange     '0.4.0-rc4',
+54 silly addNameRange     '0.4.0-rc5',
+54 silly addNameRange     '0.4.0-rc6',
+54 silly addNameRange     '0.4.0-rc7',
+54 silly addNameRange     '0.4.0-rc8' ] ]
+55 verbose addNamed [ 'grunt', '1.0.1' ]
+56 verbose addNamed [ '1.0.1', '1.0.1' ]
+57 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+58 verbose lock grunt@1.0.1 /Users/wgaggioli/.npm/75468da5-grunt-1-0-1.lock
+59 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+60 silly lockFile 75468da5-grunt-1-0-1 grunt@1.0.1
+61 silly lockFile 55f1ff24-grunt grunt@
+62 silly lockFile 55f1ff24-grunt grunt@
+63 http 404 https://registry.npmjs.org/contrib-sass
+64 silly registry.get cb [ 404,
+64 silly registry.get   { 'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=0',
+64 silly registry.get     'content-length': '2',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     date: 'Fri, 03 Feb 2017 21:13:51 GMT',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     age: '0',
+64 silly registry.get     connection: 'keep-alive',
+64 silly registry.get     'x-served-by': 'cache-ord1728-ORD',
+64 silly registry.get     'x-cache': 'MISS',
+64 silly registry.get     'x-cache-hits': '0',
+64 silly registry.get     'x-timer': 'S1486156431.121323,VS0,VE56',
+64 silly registry.get     vary: 'Accept-Encoding' } ]
+65 silly lockFile 105f046e-contrib-sass contrib-sass@
+66 silly lockFile 105f046e-contrib-sass contrib-sass@
+67 error 404 Not Found
+67 error 404
+67 error 404 'contrib-sass' is not in the npm registry.
+67 error 404 You should bug the author to publish it
+67 error 404 It was specified as a dependency of 'lib'
+67 error 404
+67 error 404 Note that you can also install from a
+67 error 404 tarball, folder, or http url, or git url.
+68 error System Darwin 13.4.0
+69 error command "node" "/usr/local/bin/npm" "install" "grunt" "contrib-sass" "--save-dev"
+70 error cwd /Users/wgaggioli/workspace/exercises/rich-browser/slideshow/lib
+71 error node -v v0.10.32
+72 error npm -v 1.4.28
+73 error code E404
+74 verbose exit [ 1, true ]

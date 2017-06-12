@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contib-watch',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json lib@1.0.0 No description
+5 warn package.json lib@1.0.0 No repository field.
+6 warn package.json lib@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-contib-watch', null ]
+9 verbose cache add name=undefined spec="grunt-contib-watch" args=["grunt-contib-watch",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-contib-watch',
+10 verbose parsed url   path: 'grunt-contib-watch',
+10 verbose parsed url   href: 'grunt-contib-watch' }
+11 silly lockFile 2eb239b6-grunt-contib-watch grunt-contib-watch
+12 verbose lock grunt-contib-watch /Users/wgaggioli/.npm/2eb239b6-grunt-contib-watch.lock
+13 silly lockFile 2eb239b6-grunt-contib-watch grunt-contib-watch
+14 silly lockFile 2eb239b6-grunt-contib-watch grunt-contib-watch
+15 verbose addNamed [ 'grunt-contib-watch', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 38434fad-grunt-contib-watch grunt-contib-watch@
+18 verbose lock grunt-contib-watch@ /Users/wgaggioli/.npm/38434fad-grunt-contib-watch.lock
+19 silly addNameRange { name: 'grunt-contib-watch', range: '*', hasData: false }
+20 verbose request where is /grunt-contib-watch
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 9494c7fe3e4ec224
+23 verbose url raw /grunt-contib-watch
+24 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contib-watch' ]
+25 verbose url resolved https://registry.npmjs.org/grunt-contib-watch
+26 verbose request where is https://registry.npmjs.org/grunt-contib-watch
+27 info trying registry request attempt 1 at 13:27:48
+28 http GET https://registry.npmjs.org/grunt-contib-watch
+29 http 404 https://registry.npmjs.org/grunt-contib-watch
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Wed, 01 Feb 2017 19:25:44 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-ord1739-ORD',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1485977144.278830,VS0,VE165',
+30 silly registry.get     vary: 'Accept-Encoding' } ]
+31 silly lockFile 38434fad-grunt-contib-watch grunt-contib-watch@
+32 silly lockFile 38434fad-grunt-contib-watch grunt-contib-watch@
+33 error 404 Not Found
+33 error 404
+33 error 404 'grunt-contib-watch' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'lib'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Darwin 13.4.0
+35 error command "node" "/usr/local/bin/npm" "install" "grunt-contib-watch" "--save-dev"
+36 error cwd /Users/wgaggioli/workspace/classexercises/jquery-starter/lib
+37 error node -v v0.10.32
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
